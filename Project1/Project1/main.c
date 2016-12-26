@@ -5,11 +5,15 @@ int sum(int a, int b)
 	return a + b;
 }
 
+int diff(int a, int b)
+{
+	return a - b;
+}
 int main()
 {
-	printf("Sume oblika (i+2)+(2i+1):\ni=(0,9)\n");
+	printf("Sume oblika (i+2)+(2i+1) i razlike oblika (3i+3)-(2i-2):\ni=(0,9)\n");
 	for (int i = 0; i < 10; i++)
-		printf("%d \n", sum(i + 2, 2 * i + 1));
+		printf("Suma:%d Razlika:%d\n", sum(sum(i, 2), sum(2 * i, 1)), diff(sum(3 * i, 3), diff(2 * i, 2)));
 	system("pause");
 	return 0;
 }
