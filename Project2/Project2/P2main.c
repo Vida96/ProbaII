@@ -12,6 +12,7 @@ int main()
 		printf("Uspjesno :D.\n\n\n");
 	}
 	else printf("Neuspjesno :(.\n\n\n");
+	printf("Dodao sam i ovo!\n");
 	system("pause");
 	return 0;
 }
