@@ -13,6 +13,7 @@ int main()
 	}
 	else printf("Neuspjesno :(.\n\n\n");
 	printf("Dodao sam i ovo!\n");
+	printf("USPJESNO KOMITOVANO!!!!!!!");
 	system("pause");
 	return 0;
 }
